@@ -1,0 +1,199 @@
+* {
+  padding: 0px;
+  font-family: sans-serif;
+}
+body{
+  background-color: #D8DBE2;
+}
+.name h1{
+  text-align: center;
+  font-size: 30px;
+  color: #373F51;
+  padding-top: 10px;
+}
+.navBar ul{
+  display: flex;
+  list-style-type: none;
+  background-color: #373F51;
+  justify-content: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  align-items: center;
+  padding-bottom: 15px;
+  border-radius: 10px;
+  font-size: 30px;
+  box-shadow: 5px 10px;
+  color: #58A4B0;
+}
+.button {
+  text-decoration: none;
+  color: #D8DBE2;
+  font-family: sans-serif;
+  background-color: transparent;
+  padding-top: 15px;
+  align-items: center;
+}
+.button a{
+  text-decoration: none;
+  color: #D8DBE2;
+  background-color: transparent;
+  font-weight: bold;
+}
+.HomeButton {
+  text-decoration: none;
+  color: #D8DBE2;
+  font-family: sans-serif;
+  background-color: transparent;
+  padding-top: 15px;
+}
+.HomeButton a{
+  text-decoration: none;
+  color: #D8DBE2;
+  background-color: transparent;
+  font-weight: bold;
+}
+
+.about{
+    text-align: center;
+    font-size: 30px;
+    color: #373F51;
+    padding-top: 10px;
+}
+p{
+  text-align: center;
+  font-size: 20px;
+  color: #373F51;
+  padding-top: 10px;
+  font-weight: lighter;
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 460px) {
+  .bars{
+    background-color: #D8DBE2;
+    color: transparent;
+    display: inline-block;
+    height: 2px;
+    position: relative;
+    width: 18px;
+    margin-left: -50px;
+  }
+  .bars::before, .bars::after{
+    background-color: #D8DBE2;
+    content:"";
+    display: inline-block;
+    height: 2px;
+    position: absolute;
+    width: 18px;
+  }
+  .bars::before{
+    top: 5px;
+  }
+  .bars::after{
+    top: -5px;
+  }
+  .toggle{
+    order: 1;
+  }
+  .button.new{
+    order: 2;
+  }
+  .button{
+    width: 100%;
+    text-align: center;
+    order: 3;
+  }
+  .toggle{
+    cursor: pointer;
+  }
+  .HomeButton a{
+    margin-right: 250px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 767px) {
+  .bars{
+    background-color: #D8DBE2;
+    color: transparent;
+    display: inline-block;
+    height: 2px;
+    position: relative;
+    width: 18px;
+    margin-left: -50px;
+  }
+  .bars::before, .bars::after{
+    background-color: #D8DBE2;
+    content:"";
+    display: inline-block;
+    height: 2px;
+    position: absolute;
+    width: 18px;
+  }
+  .bars::before{
+    top: 5px;
+  }
+  .bars::after{
+    top: -5px;
+  }
+  .toggle{
+    order: 1;
+  }
+  .button.new{
+    order: 2;
+  }
+  .button{
+    width: 100%;
+    text-align: center;
+    order: 3;
+    display: none;
+  }
+  .button.active{
+    display: block;
+  }
+  .toggle{
+    cursor: pointer;
+  }
+  .HomeButton a{
+    margin-right: 250px;
+  }
+}
+
+
+/* Tablets (Medium Screens) */
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+  /* CSS styles for tablets */
+}
+
+/* Laptops (Large Screens) */
+@media only screen and (min-width: 1024px) and (max-width: 1439px) {
+  /* CSS styles for laptops */
+}
+
+/* Desktops (Extra-large Screens) */
+@media only screen and (min-width: 1440px) {
+  /* CSS styles for desktops */
+}

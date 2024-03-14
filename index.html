@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>My Website</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script>
+      $( document ).ready(function() {
+        $(".toggle").on("click", function(){
+          if($(".button").hasClass("active")){
+            $(".button").removeClass("active")
+          }
+          else {
+            $(".button").addClass("active")
+          }
+        })
+      });
+    </script>
+  </head>
+
+  <body>
+    <div class="name">
+      <h1>Ivan Sandoval</h1>
+    </div>
+
+    <div class="top">
+      <nav class="navBar">
+        <ul>
+          <li class="none"><span class="none"></span></li>
+          <li class="HomeButton"><a class="new" href="#">Home</a></li>
+          <li class="button"><a class="new" href="#">Resume</a></li>
+          <li class="button"><a class="new" href="#">Projects</a></li>
+          <li class="button"><a class="new" href="#">Contact</a></li>
+          <li class="toggle"><span class="bars"></span></li>
+        </ul>
+      </nav>
+    </div>
+
+    <main>
+        <h1 class="about">About Me</h1>  
+        <p>Hey there! I'm Ivan, a passionate student at the University of California, Merced, majoring in 
+          Computer Science and Engineering. Ever since I can remember, I've been captivated by the endless 
+          possibilities that technology offers, and I'm thrilled to be on this journey of exploration and 
+          discovery. 
+        </p>
+        <p>
+          When I'm not immersed in the world of algorithms and programming, you can often find me strumming away 
+          on my guitar, lost in the melodies that resonate within me. Music has always been my escape, allowing 
+          me to express myself in ways words sometimes can't. 
+        </p>
+        <p>
+          Another one of my passions is hitting the gym, where I find solace in the rhythm of my workouts. Whether 
+          it's pushing myself to new limits or simply unwinding after a long day, there's something immensely 
+          satisfying about the feeling of physical exertion. 
+        </p>
+        <p>
+          But perhaps what truly sets my soul on fire is the great outdoors. Backpacking through rugged trails, 
+          surrounded by towering trees and breathtaking vistas, fills me with a sense of awe and wonder.
+        </p>
+    </main>
+
+
+
+
+
+
+
+
+
+
+  </body>
+
+
+
+
+</html>
